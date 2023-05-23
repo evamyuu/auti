@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="./styles/global.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/contact.css" rel="stylesheet" type="text/css" />
+
+    <title>AUTI | Contact</title>
+
+    <script src="./components/header.js" type="text/javascript" defer></script>
+    <script src="./components/footer.js" type="text/javascript" defer></script>
+  </head>
+
+  <body>
+    <header-component></header-component>
+    <main>
+      <div class="form-container">
+        <div>
+          <h1>Fique por dentro de todas as novidades</h1>
+          <p>Realizando sua pré-inscrição, enviaremos avisos sobre todas as nossas futuras atualizações!</p>
+        </div>
+
+        <form name="dados" id="dados">
+          <div>
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" placeholder="Ex.: Auti" autofocus required>
+          </div>
+
+          <div>
+            <label for="email">Seu melhor e-mail:</label>
+            <input type="email" id="email" required placeholder="Ex.: auti@fiap.com">
+          </div>
+
+          <a role="button" class="submit-button" href="./successful-registration.html">Enviar</a>
+        </form>
+      </div>
+    </main>
+    <footer-component></footer-component>
+  </body>
+</html>
